@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"pycounts"
+project = u"pycounts_MR"
 copyright = u"2022, Morgan Rosenberg"
 author = u"Morgan Rosenberg"
 
