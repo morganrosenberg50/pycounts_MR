@@ -1,0 +1,17 @@
+conda create --name pycounts_MR python=3.9 -y
+conda activate pycounts_MR
+from pycounts_MR.py import count_words
+count_words("zen.txt")
+
+
+git add src/pycounts_MR/pycounts_MR.py
+git commit -m "feat: add word counting functions"
+git push
+
+from pycounts_MR.plotting import plot_words
+
+git add src/pycounts_MR/plotting.py
+git commit -m "feat: add plotting module"
+git add pyproject.toml poetry.lock
+git commit -m "build: add matplotlib as a dependency"
+git push
